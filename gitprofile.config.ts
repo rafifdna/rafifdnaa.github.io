@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'rafifdna', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -57,11 +57,11 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'rafifdna',
+    twitter: 'rafifdna',
     mastodon: 'arifszn@mastodon.social',
     facebook: '',
-    instagram: '',
+    instagram: 'rafifdna',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
@@ -70,29 +70,29 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.rafifdna.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'rafif.dna@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/12gxf6kK08SIf-2fBOCL2VikNF49C9MWj/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
+    'AWS',
+    'Alibaba Cloud',
+    'Azure',
+    'GCP',
+    'Oracle Cloud Infrastructure',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kubernetes',
+    'Git',
+    'Grafana',
+    'New Relic',
+    'Javascript',
+    'Typescript',
+    'Python',
+    'Terraform',
   ],
   experiences: [
     {
