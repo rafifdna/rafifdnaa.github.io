@@ -5,9 +5,9 @@ const CONFIG = {
     username: 'rafifdna', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/rafif/rafif.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/rafif/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
   projects: {
@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['rafif/my-project1', 'rafif/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['rafif/gitprofile', 'rafif/pandora'], // List of repository names to display. example: ['rafif/my-project1', 'rafif/my-project2']
       },
     },
     external: {
@@ -52,26 +52,16 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Rafif Dzakwan',
     description: '',
     imageURL: '',
   },
   social: {
     linkedin: 'rafifdna',
     twitter: 'rafifdna',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    facebook: 'rafifdna',
     instagram: 'rafifdna',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
     website: 'https://www.rafifdna.com',
-    phone: '',
     email: 'rafif.dna@gmail.com',
   },
   resume: {
@@ -96,11 +86,11 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Elitery',
+      position: 'Site Reliability Engineer',
+      from: 'October 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://elitery.com/',
     },
     {
       company: 'Company Name',
@@ -120,10 +110,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Universitas Gadjah Mada',
+      degree: 'Bachelor of Applied Science Internet Engineering Technology',
+      from: '2020',
+      to: '2024',
     },
     {
       institution: 'Institution Name',
@@ -135,7 +125,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'rafif', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -211,7 +201,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/rafifdna/rafifdna.github.io"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
