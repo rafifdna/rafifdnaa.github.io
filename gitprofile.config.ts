@@ -58,6 +58,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'rafifdna',
+    credly: 'rafifdna',
     twitter: 'rafifdna',
     facebook: 'rafifdna',
     instagram: 'rafifdna',
@@ -66,7 +67,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/12gxf6kK08SIf-2fBOCL2VikNF49C9MWj/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1G6wlZD8nFaARk-WenukxIi92fBDqJxHU/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'AWS',
@@ -93,19 +94,73 @@ const CONFIG = {
       companyLink: 'https://elitery.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Halodoc',
+      position: 'Cyber Security Intern',
+      from: 'Feb 2023',
+      to: 'June 2023',
+      companyLink: 'https://www.halodoc.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'AWS Partner: Accreditation (Technical)',
+      body: 'Amazon Web Services (AWS)',
+      year: 'January 2024',
+      link: 'https://www.credly.com/badges/af762a02-c4ea-495e-827c-e15c9dec7694/linked_in_profile',
+    },
+    {
+      name: 'Computer Hacking Forensic Investigator (CHFI)',
+      body: 'EC-Council',
+      year: 'December 2023',
+      link: 'https://aspen.eccouncil.org/VerifyBadge?type=certification&a=RM6xsrf6lU70qz3rFc4PbDNhfzHalPiBrJ4LYc2oiCo=',
+    },
+    {
+      name: 'Digital Forensics Essentials (DFE)',
+      body: 'EC-Council',
+      year: 'December 2023',
+      link: 'https://aspen.eccouncil.org/VerifyBadge?type=certification&a=Js+jkzQ8wJrZ7uCQZwMVj/lV3Jl2GW7Z74VhtmzMmlA=',
+    },
+    {
+      name: 'Microsoft Certified: Security Operations Analyst Associate',
+      body: 'Microsoft',
+      year: 'December 2023',
+      link: 'https://learn.microsoft.com/api/credentials/share/en-us/rafifdnamc/D22FD42918648BC3?sharingId',
+    },
+    {
+      name: 'OCI 2023 Certified Foundations Associate',
+      body: 'Oracle Cloud Infrastructure',
+      year: 'September 2023',
+      link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=7B17F878C6565F993C4E7365176352721805B713EEBFDAA83FFDEC8A31865F51',
+    },
+    {
+      name: 'ACA Cloud Security',
+      body: 'Alibaba Cloud',
+      year: 'March 2023',
+      link: 'https://xuecdn2.aliyunedu.net/img_4e61979f83f769c1f0f6b87eb79b4919.png',
+    },
+    {
+      name: 'CompTIA Security +',
+      body: 'CompTIA',
+      year: 'January 2023',
+      link: 'https://www.credly.com/badges/a3728fb4-8311-4456-b7af-7e9d14d0fee1',
+    },
+    {
+      name: 'AWS Certified Solutions Architect - Associate',
+      body: 'Amazon Web Services (AWS)',
+      year: 'November 2022',
+      link: 'https://www.credly.com/badges/126d7b68-ba29-42a9-80f0-4a3db5782797',
+    },
+    {
+      name: 'AWS Certified Cloud Practioner',
+      body: 'Amazon Web Services (AWS)',
+      year: 'October 2022',
+      link: 'https://www.credly.com/badges/c1a907e9-42bc-4413-8ef8-ccedf91a2295',
+    },
+    {
+      name: 'ACA Cloud Computing',
+      body: 'Alibaba Cloud',
+      year: 'July 2022',
+      link: 'https://xuecdn2.aliyunedu.net/img_b4b59bdd1cd8271f8404aa3f0ce8158d.png',
     },
   ],
   educations: [
@@ -114,12 +169,6 @@ const CONFIG = {
       degree: 'Bachelor of Applied Science Internet Engineering Technology',
       from: '2020',
       to: '2024',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
