@@ -62,7 +62,6 @@ const CONFIG = {
     twitter: 'rafifdna',
     facebook: 'rafifdna',
     instagram: 'rafifdna',
-    website: 'https://www.rafifdna.com',
     email: 'rafif.dna@gmail.com',
   },
   resume: {
